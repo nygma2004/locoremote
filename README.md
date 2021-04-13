@@ -10,6 +10,13 @@ This project is a wifi controller for large scale garden railway locomotives. It
 - 2 switch / reed inputs to trigger sound effects
 - 2 switch / reed inputs to trigger shuttle or station start/stop mode
 - Built in configuration that saved in the local memory
+
+![Prototype setup](/img/with_phone_01.jpg)
+You can find a picture of the prototype setup above. On the top left a motor block connected for testing, and a generic 8 ohm speaker. The 4 LED strips simulate the 4 light outputs, two for headlight / tail light and 2 more for other lights. The barel jack provides power to the entire setup, but on a loco that would be a battery pack. The input channels are not connected on this prototype. 
+## Version History / Upcoming Features / Known Issues
+V1.0
+- Access Point mode is not implemented yet
+- Implement multi language support
 ## Hardware
 The controller is build on a custom PCB that you can order from PCBWay: https://www.pcbway.com/project/shareproject/ESP32_Wifi_LocoRemote.html.
 The components used was mostly purchased from Aliexpress, small components like resistors were purchased from local shop.
@@ -21,3 +28,14 @@ The components used was mostly purchased from Aliexpress, small components like 
 - 2.54mm pitch screw terminal blocks (2P, 4P and 6P): https://www.aliexpress.com/item/4000867583795.html
 - Pin headers
 - 10K, 11K and 100K resistors
+## The Controller Board
+As mentioned above the Hardware section, you can download my PCB design to build the exact same controller. You can also [find the schematic here](/pcb/Schematic_LocoRemote_v1_0.pdf).
+
+This is how the PCBs look like ordered from PCBWay:
+![PCB](/img/pcb01.jpg)
+
+This side shows the microcontroller, the motor driver board and the sound amp board:
+![microcontroller side](/img/pcb02.jpg)
+
+And the order side has the mostfets for the outputs and buck converter to power the microcontroller:
+![microcontroller side](/img/pcb3.jpg)
