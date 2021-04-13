@@ -13,6 +13,9 @@ This project is a wifi controller for large scale garden railway locomotives. It
 
 ![Prototype setup](/img/with_phone_01.jpg)
 You can find a picture of the prototype setup above. On the top left a motor block connected for testing, and a generic 8 ohm speaker. The 4 LED strips simulate the 4 light outputs, two for headlight / tail light and 2 more for other lights. The barel jack provides power to the entire setup, but on a loco that would be a battery pack. The input channels are not connected on this prototype. 
+
+You can also check out my introductory video on this project, which goes through the features implemented:
+[![PCB prototype](https://img.youtube.com/vi/NFEwV57PYEw/0.jpg)](https://www.youtube.com/watch?v=NFEwV57PYEw)
 ## Version History / Upcoming Features / Known Issues
 V1.0
 - Access Point mode is not implemented yet
